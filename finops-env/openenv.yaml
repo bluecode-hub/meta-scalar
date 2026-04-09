@@ -9,7 +9,7 @@ tags:
   - "optimization"
   - "rl-environment"
 runtime: "python"
-entrypoint: "main:app"
+entrypoint: "start_services:None"  # Uses start_services.py to run both backend and frontend
 port: 7860
 
 # Define the 3 required tasks
